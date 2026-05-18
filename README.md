@@ -13,6 +13,7 @@
 - [Limitations](#limitations)
 
 ### Project Overview
+---
 
 The primary objective of this project was to design and develop an interactive, comprehensive Sales Performance Dashboard within Excel. The dashboard consolidates raw transactional data to track, analyze, and visualize key sales performance metrics, profitability trends, and customer behaviors over a multi-year period (2022–2024). This tool empowers stakeholders to make data-driven decisions regarding regional focus, product offerings, and operational efficiency.
 
@@ -21,18 +22,18 @@ The primary objective of this project was to design and develop an interactive, 
 
 
 ### Data Source
-
+---
 Sales Dashboard: The primary dataset used for this sales performance analysis and dashboard is the "sales_dashboard_csv", containing the detailed information about each sale made by the company.
 
 ### Primary Software and Built in Tools Used
-
+---
 - Microsoft Excel 
 - Excel Power Query (ETL Tool) 
 - PivotTables & PivotCharts 
 - Slicers
 
 ### Data Cleaning
-
+---
 Excel Power Query was used to clean the raw transactional data. For a sales dataset like this to produce accurate visuals, the following four data cleaning steps were likely performed.
 - Handling Missing or Incomplete Values
 - Standardizing Categorical Labels
@@ -40,7 +41,7 @@ Excel Power Query was used to clean the raw transactional data. For a sales data
 - Text Truncation and Formatting
 
 ### Exploratory Data Analysis
-
+---
 EDA involved exploring the sales data to answer key questions such as;
 
 1. Which product categories are the most profitable, and are any underperforming?
@@ -49,7 +50,7 @@ EDA involved exploring the sales data to answer key questions such as;
 4. What is our overall financial health, and are there seasonal patterns in our sales?
 
 ### Data Analysis
-
+---
 1. Data Aggregation & Summarization
    -   Summing up the entire revenue and profit columns.
    -   Counting the total distinct order IDs to calculate the 11,632 total orders. 
@@ -69,7 +70,7 @@ EDA involved exploring the sales data to answer key questions such as;
 
 
 ### Results or Findings
-
+---
 - Strong Financial Foundations:
 The business is highly lucrative, generating $15.55M in Total Revenue across 11,632 orders, while maintaining a very healthy Average Profit Margin of 35.2% (yielding $5.45M in Total Profit).
 - High Revenue Stability:
@@ -80,6 +81,7 @@ Profits are heavily centralized in just two major hubs. Lisbon (30%) and London 
 The most alarming finding is the Order Status Breakdown. Only 33% of orders are successfully "Completed." The remaining 67% are trapped in "Pending" (34%) or have been "Cancelled" (33%). This represents a massive operational inefficiency in order fulfillment or payment processing that is likely leaving significant additional revenue on the table.
 
 ### Recomendations
+---
 - **Fix Order Pipeline**: Investigate the backend systems immediately to resolve why 67% of orders are failing to finish (stuck in "Pending" or "Cancelled").
 
 - **Scale Top Hubs**: Reallocate marketing budget to double-down on Lisbon and London, which drive 59% of total profits.
@@ -87,7 +89,7 @@ The most alarming finding is the Order Status Breakdown. Only 33% of orders are 
 - **Optimize Menu Mix**: Implement high-margin product bundling (e.g., pairing sides or chicken with beverages) to boost average order value.
 
 ### Limitations 
-
+---
 - While the dashboard successfully flags a critical operational failure that 67% of orders are Pending or Cancelled it lacks the granular data fields (such as cancellation reasons, payment failure codes, or delivery delay times) required to explain why this bottleneck is happening.
 
 
