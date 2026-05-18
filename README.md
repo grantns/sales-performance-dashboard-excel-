@@ -16,6 +16,9 @@
 
 The primary objective of this project was to design and develop an interactive, comprehensive Sales Performance Dashboard within Excel. The dashboard consolidates raw transactional data to track, analyze, and visualize key sales performance metrics, profitability trends, and customer behaviors over a multi-year period (2022–2024). This tool empowers stakeholders to make data-driven decisions regarding regional focus, product offerings, and operational efficiency.
 
+<img width="649" height="442" alt="sales dashboard" src="https://github.com/user-attachments/assets/4e130261-0c29-42b0-b542-f0721267fbdb" />
+
+
 
 ### Data Source
 
