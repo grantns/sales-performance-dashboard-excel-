@@ -9,7 +9,7 @@
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
 - [Results or Findings](#results-or-findings)
-- [Recomendations](#recomendations)
+- [Recommendations](#recommendations)
 - [Limitations](#limitations)
 
 ### Project Overview
@@ -80,7 +80,7 @@ Profits are heavily centralized in just two major hubs. Lisbon (30%) and London 
 - Critical Operational Bottleneck:
 The most alarming finding is the Order Status Breakdown. Only 33% of orders are successfully "Completed." The remaining 67% are trapped in "Pending" (34%) or have been "Cancelled" (33%). This represents a massive operational inefficiency in order fulfillment or payment processing that is likely leaving significant additional revenue on the table.
 
-### Recomendations
+### Recommendations
 ---
 - **Fix Order Pipeline**: Investigate the backend systems immediately to resolve why 67% of orders are failing to finish (stuck in "Pending" or "Cancelled").
 
